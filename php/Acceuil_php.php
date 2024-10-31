@@ -1,7 +1,7 @@
 <?php
 
 require_once("yaml/yaml.php");
-$data=yaml_parse_file('../yaml/page_de_garde_yaml.yaml');
+$data=yaml_parse_file('../yaml/Acceuil_yaml.yaml');
 //print_array($data);
 
 echo "<h1>".$data["Titre"]."</h1>\n";
